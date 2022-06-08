@@ -1,0 +1,58 @@
+#section1{
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+#section2{
+    text-align: left;
+    background-color: #F0A83E;
+    background-size:cover;
+    height: 50px;
+}
+#fondo{
+    background-image: url(../img/bowl.png);
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: right;
+}
+#portada{
+    text-align: right;
+}
+.huellita{
+    width: 28px; height: 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+.link{
+    text-align: right;
+    line-height: 8px;
+}
+#placer{
+    background-color: white;
+    background-size: cover;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#descuento{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+#comederos{
+    background-color: #F0A83E;
+    background-size: cover;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#productos-destacados{
+    text-align: center;
+    color: #3C2313;
+    font-size: 65px;
+}
+#huella{
+    width: 550;
+    height: 500;
+}

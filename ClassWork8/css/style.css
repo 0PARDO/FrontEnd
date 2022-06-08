@@ -1,0 +1,20 @@
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css
+);
+
+header{
+    background-image: url(../img/Front.jpg);
+    height: 1300px;
+    letter-spacing: 10px;
+}
+.cabecera{
+    text-align: center;
+}
+#yo{
+    width: 400px; height: 650px; 
+}
+.subtitulo{
+        color: red;
+        text-align: left;
+        background-color: rgba(171, 255, 46, 90);
+        font-size: 20px;
+}
