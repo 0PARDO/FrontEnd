@@ -8,77 +8,131 @@
     <title>TrabajoFinal</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="img/Group.png" alt="logo">
-        <h1>manage</h1>
+    <header class="header">
         <div>
-            <nav>
-                <ul type="none" class="list1" >
-                    <li><a href="Pricing">Pricing</a></li>
-                    <li><a href="Product">Product</a></li>
-                    <li><a href="About-Us">About Us</a></li>
-                    <li><a href="Careers">Careers</a></li>
-                    <li><a href="Community">Community</a></li>
-                </ul>
-            </nav>
-            <button class="header button">Get Started</button>
+        <img src="img/logo.svg" alt="logo header">
         </div>
-        </header>
-    <main>
-        <section class="section-one">
-            <article>
-            <img src="img/Group2.png" alt="Tablas de porcentajes">
-            <h2>Bring everyone together to build better products.</h2>
-            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view </p>    
-            <button class="main button">Get Started</button>
+        <nav class="nav__header">
+            <ul type="none" class="list" >
+                <li><a href="Pricing">Pricing</a></li>
+                <li><a href="Product">Product</a></li>
+                <li><a href="About-Us">About Us</a></li>
+                <li><a href="Careers">Careers</a></li>
+                <li><a href="Community">Community</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="button">Get Started</button>
+        </div>
+        <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i> </div>
+    </header>
+    <main class="main">
+        <section class="section1">
+            <article class="section1__text">
+                <h2>Bring everyone together to build better products.</h2>
+                <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view </p>    
+                <button class="main button">Get Started</button>
+            </article>
+            <article class="section1__img">
+                <img src="img/Group2.png" alt="Tablas de porcentajes">
             </article>    
         </section>
-        <section  class="section-two">
+        <section  class="section2">
             <article>
                 <h3>What's different about Manage?</h3>
                 <p>Manage provides all the funtionality your teas needs, without the complexity. Our software is tailor-made for modern digita; products teams</p>
             </article>
             <div class="section-three">
                 <article>
-                    <!-- button -->
-                    <h4>Track company-wide progress</h4>
+                    <div class="numero first">
+                        <span>01</span>
+                        <h4>Track company-wide progress</h4>
+                    </div>
                     <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
                 </article>
                 <article>
-                    <!-- button -->
-                    <h4>Advance built-in reports</h4>
-                    <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
-                </article>
+                    <div class="numero second">
+                        <span>02</span>
+                        <h4>Advance built-in reports</h4>
+                    </div>
+                        <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+                    </article>
                 <article>
-                    <!-- button -->
-                    <h4>Everything you need in one place</h4>
-                    <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+                    <div class="numero third">
+                        <span>03</span>
+                        <h4>Everything you need in one place</h4>
+                    </div>
+                        <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
                 </article>
             </div>
             </section>
             <section class="profiles">
-            <div>
-                    <!-- FOTO -->
-                    <h4>Ali Bravo</h4>
-                    <p>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
-            </div>
-            <div>
-                    <!-- FOTO -->
-                    <h4>Ali Bravo</h4>
-                    <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
-            </div>
-            <div>
-                    <!-- FOTO -->
-                    <h4>Ali Bravo</h4>
-                    <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
-            </div>
+                <article class="tittlepro">
+                    <h3>What they´ve said</h3>
+                </article>
+                <article class="list__profile">
+                    <div class="profile1">
+                        <img class="img_profile" src="img/avatar-anisha 1.png" alt="foto Anisha">
+                        <h4>Ali Bravo</h4>
+                        <p>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+                    </div>
+                    <div class="profile2">
+                        <img class="img_profile" src="img/avatar-ali 1.png" alt="foto Ali">
+                        <h4>Ali Bravo</h4>
+                        <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+                    </div>
+                    <div class="profile3">
+                        <img class="img_profile" src="img/avatar-richard 1.png" alt="foto Richard">
+                        <h4>Ali Bravo</h4>
+                        <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
+                    </div>
+                </article>
+                <div class="bottom__finish">
+                    <button class="last button">Get Started</button>
+                </div>
+                <article class="art-final">
+                    <p>Simplify hoy your team words today</p>
+                </article>
         </section>
-        <!-- button -->
-        <h2>Simply hoy your team words today.</h2>
-        <!-- button -->    
     </main>
-    <footer>
-        <!-- pendiente -->
+    <footer class="footer">
+        <Section class="footer__contain">
+            <article class="footer__">
+                <div class="footer__logo">
+                    <img src="img/logo_footer.png" alt="logo">
+                </div>
+                <nav class="footer__iconos">
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                </nav>
+            </article>
+            <article>
+                <nav class="listas">
+                    <ul class="List1">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Pricing</li></a>
+                    <a href="#"><li>Products</li></a>
+                    <a href="#"><li>About Us</li></a>
+                    </ul>
+                    <ul class="List2">    
+                    <a href="#"><li>Careers</li></a>
+                    <a href="#"><li>Community</li></a>
+                    <a href="#"><li>Privacy Policy</li></a>
+                    </ul>
+                </nav>
+            </article>
+            <section class="footer__formulario">
+                <form action="./update" method="POST" class="footer__form">
+                    <input type="email" name="update" id="update" placeholder="Update your email..." required>
+                    <button type="submit" class="button">Go</button>
+                </form>
+                
+            </section>
+        </Section>
+        <p class="footer__copyright">Copyright 2020. All Rights Reserved</p>
     </footer>
 </body>
 </html>
